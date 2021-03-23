@@ -116,6 +116,6 @@ h2 {
 }
 
 .milieu {
-  z-index: -1;
+  z-index: +1;
 }
 /* fin exo position (priorité) */
