@@ -53,6 +53,7 @@ h2 {
 
 
 .bloc-ligne {
+  /* display block, sera conservé dans l'axe des y et X */
   display: inline-block;
   display: inline;
 }
