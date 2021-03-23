@@ -1,0 +1,120 @@
+body {
+  margin: 0
+}
+
+/* Exo margin */
+
+section {
+  background-color: #4da6ff;
+}
+
+h2 {
+  background-color: yellow;
+  border: solid 2px;
+  font-size: 50px;
+}
+
+.mg-left1 {
+  margin-left: 20%;
+}
+
+.mg-50px {
+  margin: 50px;
+}
+
+.mg-auto {
+  margin: auto;
+}
+
+/* fin exo margin */
+
+/* --------------------------------------------------------------- */
+
+/* exo padding */
+
+.pd-left-50 {
+  padding-left: 50px;
+}
+
+.pd-left-20 {
+  padding-left: 20%;
+}
+
+/* fin exo padding */
+
+/* --------------------------------------------------------------- */
+
+/* exo display */
+
+.mg-pd {
+  margin: 50px;
+  padding: 50px;
+}
+
+
+.bloc-ligne {
+  display: inline-block;
+  display: inline;
+}
+
+.none {
+  display: none;
+}
+
+/* fin exo display */
+
+/* --------------------------------------------------------------- */
+
+/* exo float */
+
+.w-auto {
+  width: auto;
+}
+
+.f {
+  float:left ;
+}
+
+.of {
+  overflow: auto;
+}
+
+/* fin exo float */
+
+/* exo position */
+
+.fixe {
+  position: fixed;
+  background: green;
+  top: 50px;
+  left: 50%;
+  margin: 0;
+}
+
+.relatif {
+  position: relative;
+}
+
+
+
+/* fin exo position */
+
+/* exo position (priorité) */
+
+.bg-bleu {
+  background-color: blue;
+  margin-left: 100px;
+}
+
+.absolu {
+  position: absolute;
+}
+
+.derriere {
+  z-index: -2;
+}
+
+.milieu {
+  z-index: -1;
+}
+/* fin exo position (priorité) */
